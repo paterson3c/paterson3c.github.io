@@ -1,0 +1,1 @@
+// Script para traducción de idioma

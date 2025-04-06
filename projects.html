@@ -1,10 +1,10 @@
-<!-- Página principal -->
+<!-- Página de proyectos -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Miguel Jesús Paterson González</title>
+  <title data-i18n="nav.projects">Projects</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/lang.js"></script>
 </head>
@@ -26,15 +26,27 @@
   </header>
 
   <main>
-    <section class="intro">
-      <img src="assets/img/profile.jpg" alt="Profile picture" class="profile-img" />
-      <p data-i18n="bio"></p>
-      <div class="cv-links">
-        <a href="cv/CV_EN.pdf" target="_blank" data-i18n="download.cv_en"></a>
-        <a href="cv/CV_ES.pdf" target="_blank" data-i18n="download.cv_es"></a>
-        <a href="cv/CV_FR.pdf" target="_blank" data-i18n="download.cv_fr"></a>
-      </div>
-    </section>
+    <h2 data-i18n="projects.title"></h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/paterson3c/http_server" target="_blank">HTTP Server in C</a></h3>
+      <p data-i18n="projects.http_server"></p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/paterson3c/films_api" target="_blank">Films & Clients REST API</a></h3>
+      <p data-i18n="projects.films_api"></p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/paterson3c/library_api" target="_blank">User & File Microservices</a></h3>
+      <p data-i18n="projects.library_api"></p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/paterson3c/practica_libpcap" target="_blank">ARP Traffic Analyzer with libpcap</a></h3>
+      <p data-i18n="projects.libpcap"></p>
+    </div>
   </main>
 
   <footer>
