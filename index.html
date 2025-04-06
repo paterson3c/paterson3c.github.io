@@ -17,10 +17,17 @@
         <li><a href="projects.html" data-i18n="nav.projects"></a></li>
         <li><a href="contact.html" data-i18n="nav.contact"></a></li>
         <li class="lang-switcher">
-          <button onclick="setLang('en')">EN</button>
-          <button onclick="setLang('es')">ES</button>
-          <button onclick="setLang('fr')">FR</button>
-        </li>
+          <div class="dropdown">
+            <button class="dropbtn">
+              <img id="current-flag" src="assets/img/flags/en.svg" alt="Language" />
+            </button>
+            <div class="dropdown-content">
+              <img src="assets/img/flags/en.svg" onclick="setLang('en')" alt="English" />
+              <img src="assets/img/flags/es.svg" onclick="setLang('es')" alt="Español" />
+              <img src="assets/img/flags/fr.svg" onclick="setLang('fr')" alt="Français" />
+            </div>
+          </div>
+        </li>        
       </ul>
     </nav>
   </header>

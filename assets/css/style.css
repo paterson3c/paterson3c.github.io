@@ -89,3 +89,37 @@ footer {
     border-top: 1px solid #ddd;
     margin-top: 2em;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn img {
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    z-index: 1;
+  }
+  
+  .dropdown-content img {
+    width: 24px;
+    height: auto;
+    margin: 0.2em;
+    cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 0.5em;
+  }

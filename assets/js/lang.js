@@ -6,6 +6,7 @@ function setLang(lang) {
   if (!supportedLangs.includes(lang)) lang = defaultLang;
   localStorage.setItem('lang', lang);
   loadLang(lang);
+  document.getElementById('current-flag').src = `assets/img/flags/${lang}.svg`;
 }
 
 function loadLang(lang) {
