@@ -3,16 +3,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f4f4f9; /* más suave que blanco */
+    color: #2b2b2b;
     max-width: 900px;
     margin: auto;
 }
 
 header {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 1em 2em;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,16 +38,18 @@ nav li {
 nav a,
 .lang-switcher button {
     text-decoration: none;
-    color: #007acc;
+    color: #005f99;
     background: none;
     border: none;
     cursor: pointer;
     font-size: 1em;
     padding: 0.2em 0.5em;
+    transition: color 0.2s ease;
 }
 
 .lang-switcher button:hover,
 nav a:hover {
+    color: #004577;
     text-decoration: underline;
 }
 
@@ -64,6 +66,22 @@ main {
 
 .project {
     margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.project:hover {
+    background-color: #e8f4fc;
+}
+
+.project h3 a {
+    color: #005f99;
+    transition: color 0.2s ease;
+}
+
+.project h3 a:hover {
+    color: #003f73;
 }
 
 .cv-links a {
@@ -72,13 +90,15 @@ main {
     margin-top: 1em;
     text-decoration: none;
     color: #fff;
-    background-color: #007acc;
+    background-color: #005f99;
     padding: 0.5em 1em;
     border-radius: 4px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .cv-links a:hover {
-    background-color: #005f99;
+    background-color: #004577;
+    transform: translateY(-2px);
 }
 
 footer {
@@ -86,40 +106,47 @@ footer {
     font-size: 0.9em;
     color: #777;
     padding: 1em;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #dddddd;
     margin-top: 2em;
 }
 
+/* Language selector dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropbtn img {
+}
+
+.dropbtn img {
     width: 24px;
     height: auto;
     cursor: pointer;
     border: none;
     background: none;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     border: 1px solid #ddd;
     padding: 0.5em;
     z-index: 1;
-  }
-  
-  .dropdown-content img {
+    border-radius: 4px;
+}
+
+.dropdown-content img {
     width: 24px;
     height: auto;
     margin: 0.2em;
     cursor: pointer;
-  }
-  
-  .dropdown:hover .dropdown-content {
+    transition: transform 0.2s ease;
+}
+
+.dropdown-content img:hover {
+    transform: scale(1.1);
+}
+
+.dropdown:hover .dropdown-content {
     display: flex;
     gap: 0.5em;
-  }
+}
