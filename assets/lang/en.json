@@ -1,1 +1,28 @@
-{ "welcome": "Welcome" }
+{
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "bio": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+    "download": {
+      "cv_en": "Download CV (EN)",
+      "cv_es": "Download CV (ES)",
+      "cv_fr": "Download CV (FR)"
+    },
+    "footer": {
+      "license": "This site is licensed under"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "http_server": "Low-level HTTP server implemented in C using sockets. Supports GET, POST, and OPTIONS requests without external libraries.",
+      "films_api": "Python API for managing films, shopping carts and clients. Built with SQLAlchemy, PostgreSQL, and Docker.",
+      "library_api": "Two microservices written in Python using Quart. Implements custom token-based authentication and file management.",
+      "libpcap": "ARP packet capture, analysis, and response tool built with Python and libpcap. Tested in Mininet and well-documented."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Feel free to reach out through any of the following channels:"
+    }
+}
+  
