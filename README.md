@@ -44,4 +44,4 @@ Note: This is a personal portfolio repository. Only the owner can make changes t
 This website is licensed under the [Creative Commons BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ---
-Made with ❤️ by Miguel Jesús Paterson González - paterson3c
+Made by Miguel Jesús Paterson González - paterson3c
