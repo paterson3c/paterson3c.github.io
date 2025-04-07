@@ -1,6 +1,6 @@
 # 🌐 Portfolio – Miguel Jesús Paterson González (paterson3c)
 
-Welcome to the source code of my personal multilingual portfolio hosted on GitHub Pages.
+Welcome to the source code of my personal portfolio hosted on GitHub Pages.
 
 ## 🔧 Features
 
