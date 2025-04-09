@@ -4,7 +4,10 @@
       "projects": "Projects",
       "contact": "Contact"
     },
-    "bio": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+    "bio": {
+      "summary": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+      "objective": "💼 Open to internships or junior roles in cybersecurity, networks, or backend development (from June 2025)."
+    },
     "download": {
       "cv_en": "Download CV (EN)",
       "cv_es": "Download CV (ES)",
@@ -26,8 +29,18 @@
     },
     "cert": {
       "title": "🎓 Certifications & Training",
-      "tryhackme": "Advancing in TryHackMe cybersecurity labs",
-      "ccna": "Completed Cisco IT Essentials (preparation for CCNA)"
+      "ccncert": "Intro to Cybersecurity – CCN-CERT Atenea (2024)",
+      "utad": "Summer Course – Intro to Cybersecurity at U-tad (2021)",
+      "tryhackme": "Progressing through TryHackMe cybersecurity labs"
+    },
+    "skills": {
+      "title": "🛠️ Technical Skills",
+      "python": "Python – ⭐⭐⭐⭐☆",
+      "c": "C (Sockets) – ⭐⭐⭐⭐☆",
+      "docker": "Docker – ⭐⭐⭐☆☆",
+      "git": "Git / GitHub – ⭐⭐⭐⭐☆",
+      "linux": "Linux – ⭐⭐⭐⭐☆",
+      "cyber": "Networking & Cybersecurity – ⭐⭐⭐⭐☆"
     }
 }
   

@@ -4,7 +4,10 @@
       "projects": "Proyectos",
       "contact": "Contacto"
     },
-    "bio": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
+    "bio": {
+      "summary": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
+      "objective": "💼 Buscando prácticas o posiciones junior en ciberseguridad, redes o desarrollo backend (a partir de junio de 2025)."
+    },
     "download": {
       "cv_en": "Descargar CV (EN)",
       "cv_es": "Descargar CV (ES)",
@@ -26,8 +29,18 @@
     },
     "cert": {
       "title": "🎓 Certificaciones y Formación",
-      "tryhackme": "Avanzando en los laboratorios de ciberseguridad de TryHackMe",
-      "ccna": "Curso completado: Cisco IT Essentials (preparatorio para CCNA)"
+      "ccncert": "Curso Introducción a la Ciberseguridad – CCN-CERT Atenea (2024)",
+      "utad": "Curso de Verano Introducción a la Ciberseguridad – U-tad (2021)",
+      "tryhackme": "Avanzando en los laboratorios de ciberseguridad de TryHackMe"
+    },
+    "skills": {
+      "title": "🛠️ Habilidades Técnicas",
+      "python": "Python – ⭐⭐⭐⭐☆",
+      "c": "C (Sockets) – ⭐⭐⭐⭐☆",
+      "docker": "Docker – ⭐⭐⭐☆☆",
+      "git": "Git / GitHub – ⭐⭐⭐⭐☆",
+      "linux": "Linux – ⭐⭐⭐⭐☆",
+      "cyber": "Redes y Ciberseguridad – ⭐⭐⭐⭐☆"
     }
 }
   

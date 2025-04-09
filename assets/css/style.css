@@ -213,7 +213,7 @@ footer {
 
 .certifications ul li {
     margin-bottom: 0.4em;
-    padding-left: 1em;
+    padding-left: 1.2em;
     position: relative;
 }
 
@@ -221,5 +221,36 @@ footer {
     content: '✔️';
     position: absolute;
     left: 0;
+}
+
+.skills {
+margin-top: 2em;
+}
+
+.skills h2 {
+font-size: 1.3em;
+margin-bottom: 0.5em;
+}
+
+.skills ul {
+list-style: none;
+padding-left: 1em;
+}
+
+.skills ul li {
+margin-bottom: 0.4em;
+padding-left: 1.2em;
+position: relative;
+}
+
+.skills ul li::before {
+content: '💻';
+position: absolute;
+left: 0;
+}
+
+.objective {
+    font-style: italic;
+    margin-top: 0.5em;
 }
   
