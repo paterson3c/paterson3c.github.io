@@ -23,6 +23,11 @@
     "contact": {
       "title": "Get in Touch",
       "description": "Feel free to reach out through any of the following channels:"
+    },
+    "cert": {
+      "title": "🎓 Certifications & Training",
+      "tryhackme": "Advancing in TryHackMe cybersecurity labs",
+      "ccna": "Completed Cisco IT Essentials (preparation for CCNA)"
     }
 }
   

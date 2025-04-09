@@ -23,6 +23,11 @@
     "contact": {
       "title": "Contacto",
       "description": "No dudes en escribirme a través de cualquiera de los siguientes canales:"
+    },
+    "cert": {
+      "title": "🎓 Certificaciones y Formación",
+      "tryhackme": "Avanzando en los laboratorios de ciberseguridad de TryHackMe",
+      "ccna": "Curso completado: Cisco IT Essentials (preparatorio para CCNA)"
     }
 }
   

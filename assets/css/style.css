@@ -155,44 +155,71 @@ footer {
 .dark-mode {
     background-color: #1f1f1f;
     color: #f0f0f0;
-  }
-  
-  .dark-mode header {
+}
+
+.dark-mode header {
     background-color: #2a2a2a;
     border-color: #444;
-  }
-  
-  .dark-mode footer {
+}
+
+.dark-mode footer {
     border-color: #444;
     color: #bbb;
-  }
-  
-  .dark-mode nav a,
-  .dark-mode .lang-switcher button,
-  .dark-mode .theme-toggle button {
+}
+
+.dark-mode nav a,
+.dark-mode .lang-switcher button,
+.dark-mode .theme-toggle button {
     color: #82cfff;
-  }
-  
-  .dark-mode nav a:hover,
-  .dark-mode .lang-switcher button:hover {
+}
+
+.dark-mode nav a:hover,
+.dark-mode .lang-switcher button:hover {
     color: #47a8ff;
-  }
-  
-  .dark-mode .cv-links a {
+}
+
+.dark-mode .cv-links a {
     background-color: #3683ba;
-  }
-  
-  .dark-mode .cv-links a:hover {
+}
+
+.dark-mode .cv-links a:hover {
     background-color: #2b6b9a;
-  }
-  
-  .dark-mode .project:hover {
+}
+
+.dark-mode .project:hover {
     background-color: #2f3b4c;
-  }
-  
-  .theme-toggle button {
+}
+
+.theme-toggle button {
     background: none;
     border: none;
     cursor: pointer;
     font-size: 1.2em;
-  }
+}
+
+.certifications {
+    margin-top: 2em;
+}
+
+.certifications h2 {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.certifications ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.certifications ul li {
+    margin-bottom: 0.4em;
+    padding-left: 1em;
+    position: relative;
+}
+
+.certifications ul li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+}
+  
