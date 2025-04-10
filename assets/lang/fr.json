@@ -1,46 +1,104 @@
 {
-    "nav": {
-      "home": "Accueil",
-      "projects": "Projets",
-      "contact": "Contact"
-    },
-    "bio": {
-      "summary": "Étudiant en ingénierie informatique avec un fort intérêt pour la cybersécurité, les réseaux et la programmation bas niveau. Ceci est mon espace personnel où je partage mes projets techniques et mes expériences d'apprentissage.",
-      "objective": "💼 À la recherche d’un stage ou poste junior en cybersécurité, réseaux ou backend (à partir de juin 2025)."
-    },
-    "download": {
-      "cv_en": "Télécharger CV (EN)",
-      "cv_es": "Télécharger CV (ES)",
-      "cv_fr": "Télécharger CV (FR)"
-    },
-    "footer": {
-      "license": "Ce site est sous licence"
-    },
-    "projects": {
-      "title": "Projets en Vedette",
-      "http_server": "Serveur HTTP bas niveau en C utilisant des sockets. Prend en charge les requêtes GET, POST et OPTIONS sans bibliothèques externes.",
-      "films_api": "API Python pour gérer des films, des paniers et des clients. Construit avec SQLAlchemy, PostgreSQL et Docker.",
-      "library_api": "Deux microservices écrits en Python avec Quart. Authentification personnalisée basée sur des tokens et gestion des fichiers.",
-      "libpcap": "Outil de capture, d'analyse et de réponse aux paquets ARP écrit en Python avec libpcap. Testé avec Mininet et bien documenté."
-    },
-    "contact": {
-      "title": "Me Contacter",
-      "description": "N'hésitez pas à me contacter via l'un des moyens suivants :"
-    },
-    "cert": {
-      "title": "🎓 Certifications et Formations",
-      "ccncert": "Introduction à la cybersécurité – CCN-CERT Atenea (2024)",
-      "utad": "Cours d'été – Introduction à la cybersécurité à U-tad (2021)",
-      "tryhackme": "En progression dans les labs cybersécurité de TryHackMe"
-    },
-    "skills": {
-      "title": "🛠️ Compétences Techniques",
-      "python": "Python – ⭐⭐⭐⭐☆",
-      "c": "C – ⭐⭐⭐⭐☆",
-      "docker": "Docker – ⭐⭐⭐☆☆",
-      "git": "Git / GitHub – ⭐⭐⭐⭐☆",
-      "linux": "Linux – ⭐⭐⭐⭐☆",
-      "cyber": "Réseaux et Cybersécurité – ⭐⭐⭐⭐☆"
-    }
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "bio": {
+    "summary": "Étudiant en ingénierie informatique avec un fort intérêt pour la cybersécurité, les réseaux et la programmation bas niveau. Ceci est mon espace personnel où je partage mes projets techniques et mes expériences d'apprentissage.",
+    "objective": "💼 À la recherche d’un stage ou poste junior en cybersécurité, réseaux ou backend (à partir de juin 2025)."
+  },
+  "download": {
+    "cv_en": "Télécharger CV (EN)",
+    "cv_es": "Télécharger CV (ES)",
+    "cv_fr": "Télécharger CV (FR)"
+  },
+  "footer": {
+    "license": "Ce site est sous licence"
+  },
+  "projects": {
+    "title": "🧪 Projets sélectionnés",
+    "http_server_title": "Serveur HTTP en C",
+    "http_server": "Serveur web bas niveau gérant les requêtes GET, POST et OPTIONS avec des sockets en C.",
+    "films_api_title": "API REST de Films et Clients",
+    "films_api": "API REST pour la gestion des films, paniers et commandes avec Python et Docker.",
+    "library_api_title": "Microservices Utilisateurs & Fichiers",
+    "library_api": "Système d’authentification personnalisé par tokens avec une architecture microservices.",
+    "libpcap_title": "Analyseur de trafic ARP avec libpcap",
+    "libpcap": "Capture et analyse du trafic ARP via des trames Ethernet dans un environnement Mininet.",
+    "coming_soon_title": "🚧 D’autres projets à venir",
+    "coming_soon_desc": "Je travaille actuellement sur de nouveaux projets liés à la cybersécurité, aux réseaux et au backend. Restez connectés !"
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "description": "N'hésitez pas à me contacter via l'un des moyens suivants :"
+  },
+  "cert": {
+    "title": "🎓 Certifications et Formations",
+    "ccncert": "Introduction à la cybersécurité – CCN-CERT Atenea (2024)",
+    "utad": "Cours d'été – Introduction à la cybersécurité à U-tad (2021)",
+    "tryhackme": "En progression dans les labs cybersécurité de TryHackMe"
+  },
+  "skills": {
+    "title": "🛠️ Compétences Techniques",
+    "python": "Python – ⭐⭐⭐⭐☆",
+    "c": "C – ⭐⭐⭐⭐☆",
+    "docker": "Docker – ⭐⭐⭐☆☆",
+    "git": "Git / GitHub – ⭐⭐⭐⭐☆",
+    "linux": "Linux – ⭐⭐⭐⭐☆",
+    "cyber": "Réseaux et Cybersécurité – ⭐⭐⭐⭐☆"
+  },
+  "http": {
+    "title": "🖧 Serveur HTTP en C",
+    "desc": "Ce projet est un serveur HTTP léger écrit en C pur, conçu pour gérer des requêtes HTTP de base via la programmation de sockets bas niveau.",
+    "features": "🔍 Fonctionnalités clés",
+    "f1": "Gère les méthodes GET, POST et OPTIONS.",
+    "f2": "Aucune bibliothèque externe : uniquement des appels système et sockets.",
+    "f3": "Analyse manuelle des en-têtes et du contenu HTTP.",
+    "f4": "Gestion robuste des connexions (accept, fork, send, close).",
+    "tech": "⚙️ Technologies utilisées",
+    "learning": "📌 Apports pédagogiques",
+    "learning_text": "J’ai approfondi ma compréhension de TCP/IP, appris à analyser HTTP manuellement, et pratiqué le débogage de la concurrence et des en-têtes. Ce projet a renforcé mes compétences en réseaux et en programmation système.",
+    "back": "← Retour aux Projets"
+  },
+  "library": {
+    "title": "🔐 Microservices Utilisateurs et Fichiers",
+    "desc": "Ce projet met en œuvre une authentification et une gestion de fichiers via des microservices développés sans bibliothèques d’authentification externes.",
+    "features": "🔍 Fonctionnalités clés",
+    "f1": "Authentification par token (implémentation maison)",
+    "f2": "Services utilisateurs et fichiers séparés avec communication HTTP",
+    "f3": "Endpoints pour l’enregistrement, le téléchargement et l’upload de fichiers",
+    "f4": "Aucune dépendance à JWT ou OAuth",
+    "tech": "⚙️ Technologies utilisées",
+    "learning": "📌 Apports pédagogiques",
+    "learning_text": "J’ai conçu la logique d’authentification à partir de zéro, géré l’architecture microservices et approfondi les bases des API REST et de la sécurité.",
+    "back": "← Retour aux Projets"
+  },
+  "films": {
+    "title": "🎬 API REST de Films et Clients",
+    "desc": "Une API REST complète pour gérer un catalogue de films, paniers d'utilisateurs et commandes. Développée en Python avec Docker.",
+    "features": "🔍 Fonctionnalités clés",
+    "f1": "Opérations CRUD pour les films et les clients",
+    "f2": "Logique de panier d’achat et gestion des commandes",
+    "f3": "Authentification avec rôles : admin vs utilisateur",
+    "f4": "Conteneurisé avec Docker pour le déploiement",
+    "tech": "⚙️ Technologies utilisées",
+    "learning": "📌 Apports pédagogiques",
+    "learning_text": "Expérience acquise dans la structuration d’API, le contrôle d’accès, les bonnes pratiques REST et l’utilisation de Docker.",
+    "back": "← Retour aux Projets"
+  },
+  "libpcap": {
+    "title": "📡 Analyseur de trafic ARP avec libpcap",
+    "desc": "Outil Python pour capturer, envoyer et analyser le trafic ARP avec des trames Ethernet brutes. Développé et testé avec Mininet.",
+    "features": "🔍 Fonctionnalités clés",
+    "f1": "Traitement des requêtes et réponses ARP",
+    "f2": "Cache ARP personnalisé avec verrouillage",
+    "f3": "Support du ARP gratuit",
+    "f4": "Outils de débogage et documentation fournie",
+    "tech": "⚙️ Technologies utilisées",
+    "learning": "📌 Apports pédagogiques",
+    "learning_text": "J’ai appris les bases des réseaux bas niveau avec libpcap, généré et analysé des paquets, et testé leur comportement avec Mininet.",
+    "back": "← Retour aux Projets"
+  }
 }
   

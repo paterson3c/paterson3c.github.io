@@ -250,7 +250,14 @@ left: 0;
 }
 
 .objective {
-    font-style: italic;
-    margin-top: 0.5em;
+font-style: italic;
+margin-top: 0.5em;
+}
+
+.project.future {
+border-left: 4px solid #ccc;
+padding-left: 1em;
+opacity: 0.9;
+font-style: italic;
 }
   

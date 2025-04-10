@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Films API – paterson3c</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <script defer src="../assets/js/lang.js"></script>
+  <script defer src="../assets/js/theme.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="site-title">Miguel Jesús Paterson González</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html" data-i18n="nav.home"></a></li>
+        <li><a href="../projects.html" data-i18n="nav.projects"></a></li>
+        <li><a href="../contact.html" data-i18n="nav.contact"></a></li>
+        <li class="lang-switcher">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <img id="current-flag" src="../assets/img/flags/en.svg" alt="Language" />
+            </button>
+            <div class="dropdown-content">
+              <img src="../assets/img/flags/en.svg" onclick="setLang('en')" alt="English" />
+              <img src="../assets/img/flags/es.svg" onclick="setLang('es')" alt="Español" />
+              <img src="../assets/img/flags/fr.svg" onclick="setLang('fr')" alt="Français" />
+            </div>
+          </div>
+        </li>
+        <li class="theme-toggle">
+          <button onclick="toggleTheme()" id="theme-button">🌙</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 data-i18n="films.title"></h2>
+
+    <p data-i18n="films.desc"></p>
+
+    <h3 data-i18n="films.features"></h3>
+    <ul>
+      <li data-i18n="films.f1"></li>
+      <li data-i18n="films.f2"></li>
+      <li data-i18n="films.f3"></li>
+      <li data-i18n="films.f4"></li>
+    </ul>
+
+    <h3 data-i18n="films.tech"></h3>
+    <ul>
+      <li>Python</li>
+      <li>Flask</li>
+      <li>Docker</li>
+      <li>REST API</li>
+    </ul>
+
+    <h3 data-i18n="films.learning"></h3>
+    <p data-i18n="films.learning_text"></p>
+
+    <h3>📂 GitHub</h3>
+    <p>
+      <a href="https://github.com/paterson3c/films_api" target="_blank">github.com/paterson3c/films_api</a>
+    </p>
+
+    <p><a href="../projects.html" data-i18n="films.back"></a></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Miguel Jesús Paterson González — paterson3c. <span data-i18n="footer.license"></span>
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+    </p>
+  </footer>
+</body>
+</html>
