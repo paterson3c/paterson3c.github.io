@@ -99,6 +99,12 @@
     "learning": "📌 Apports pédagogiques",
     "learning_text": "J’ai appris les bases des réseaux bas niveau avec libpcap, généré et analysé des paquets, et testé leur comportement avec Mininet.",
     "back": "← Retour aux Projets"
+  },
+  "project": {
+    "prev": "← Précédent",
+    "next": "Suivant →",
+    "back": "← Retour aux Projets"
   }
+
 }
   

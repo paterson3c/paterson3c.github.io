@@ -99,6 +99,12 @@
     "learning": "📌 Aprendizajes",
     "learning_text": "Aprendí redes de bajo nivel con libpcap, implementé generación e inspección de paquetes y validé comportamientos en entornos virtuales con Mininet.",
     "back": "← Volver a Proyectos"
+  },
+  "project": {
+    "prev": "← Anterior",
+    "next": "Siguiente →",
+    "back": "← Volver a Proyectos"
   }
+
 }
   

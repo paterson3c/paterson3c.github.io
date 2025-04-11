@@ -287,6 +287,39 @@ footer {
     text-decoration: underline;
 }
 
+.project-nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #005f99;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-btn:hover {
+    background-color: #004577;
+    transform: translateY(-2px);
+}
+
+/* Dark mode */
+.dark-mode .nav-btn {
+    background-color: #3683ba;
+}
+
+.dark-mode .nav-btn:hover {
+    background-color: #2b6b9a;
+}
+  
+
 /* ====================== */
 /*     RESPONSIVE (MÓVIL) */
 /* ====================== */

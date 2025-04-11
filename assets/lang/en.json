@@ -99,6 +99,11 @@
     "learning": "📌 Learning Outcomes",
     "learning_text": "Learned low-level networking using libpcap, implemented packet generation and inspection, and tested behavior in a virtual environment using Mininet.",
     "back": "← Back to Projects"
+  },
+  "project": {
+    "prev": "← Previous",
+    "next": "Next →",
+    "back": "← Back to Projects"
   }
 }
   
