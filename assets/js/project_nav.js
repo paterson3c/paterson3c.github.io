@@ -31,6 +31,11 @@ function renderProjectNav(langData) {
     back.innerText = getTranslation(langData, "project.back");
     navContainer.appendChild(back);
 
+    const position = document.createElement("div");
+    position.className = "project-position";
+    position.innerText = `${index + 1} / ${projectPages.length}`;
+    navContainer.appendChild(position);
+
     if (index < projectPages.length - 1) {
     const next = document.createElement("a");
     next.href = projectPages[index + 1].file;

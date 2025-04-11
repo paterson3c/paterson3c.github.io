@@ -11,6 +11,13 @@ function setLang(lang) {
   const prefix = window.location.pathname.includes("/projects/") ? "../" : "";
   const flag = document.getElementById('current-flag');
   if (flag) flag.src = `${prefix}assets/img/flags/${lang}.svg`;
+
+  // Si estamos en página de proyecto, hace scroll al contenido
+  if (window.location.pathname.includes("projects/")) {
+    setTimeout(() => {
+      document.querySelector("main").scrollIntoView({ behavior: "smooth" });
+    }, 300);
+  }
 }
 
 function loadLang(lang) {
