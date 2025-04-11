@@ -279,7 +279,7 @@ footer {
 }
 
 .dark-mode a {
-    color: #82cfff;
+    color: #e0dfdf;
 }
 
 .dark-mode a:hover {
@@ -287,21 +287,21 @@ footer {
     text-decoration: underline;
 }
 
-.project-nav-buttons {
+.project-nav {
+    margin-top: 2em;
     display: flex;
     justify-content: space-between;
     gap: 1em;
-    margin-top: 2em;
     flex-wrap: wrap;
 }
 
 .nav-btn {
-    display: inline-block;
-    padding: 0.5em 1em;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #fff;
     background-color: #005f99;
+    color: white;
+    padding: 0.6em 1.2em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
@@ -310,14 +310,15 @@ footer {
     transform: translateY(-2px);
 }
 
-/* Dark mode */
 .dark-mode .nav-btn {
     background-color: #3683ba;
+    color: white;
 }
 
 .dark-mode .nav-btn:hover {
     background-color: #2b6b9a;
 }
+  
   
 
 /* ====================== */
