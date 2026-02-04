@@ -6,6 +6,7 @@
   },
   "intro": {
     "greeting": "Hola, soy Miguel Paterson",
+    "short_bio": "Soy un apasionado desarrollador de software especializado en ciberseguridad, redes y sistemas backend.",
     "about_title": "Sobre mí",
     "about_text": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
     "resume": "Currículum / CV"
@@ -20,10 +21,11 @@
   },
   "projects": {
     "title": "Proyectos Destacados",
-    "http_server": "Servidor HTTP de bajo nivel implementado en C usando sockets. Soporta peticiones GET, POST y OPTIONS sin librerías externas.",
-    "films_api": "API en Python para gestionar películas, carritos y clientes. Construida con SQLAlchemy, PostgreSQL y Docker.",
-    "library_api": "Dos microservicios escritos en Python con Quart. Autenticación personalizada con tokens y gestión de archivos.",
-    "libpcap": "Herramienta para capturar, analizar y responder tráfico ARP construida en Python con libpcap. Probada en Mininet y bien documentada.",
+    "view_code": "Ver Código ↗",
+    "http_server": "Desarrollo desde cero de un servidor HTTP capaz de gestionar peticiones GET, POST y OPTIONS, utilizando sockets e hilos en C y manejo manual de cabeceras HTTP.",
+    "films_api": "Creación de una API REST con endpoints para películas, carritos de compra y clientes. Gestión de sesiones y autenticación. Despliegue en contenedores Docker.",
+    "library_api": "Implementación de dos microservicios independientes para gestión de usuarios y bibliotecas de archivos. Incluye autenticación personalizada mediante tokens propios, protección de endpoints y despliegue en Docker.",
+    "libpcap": "Herramienta para análisis de tráfico Ethernet y ARP con implementación propia de: Captura y análisis de tramas con libpcap. Envío y procesamiento de peticiones/respuestas ARP. ARP gratuito y gestión de caché con sincronización por locks. Validación en red virtual (Mininet) con pruebas documentadas.",
     "coming_soon_title": "🚧 Próximamente Más Proyectos",
     "coming_soon_desc": "Estoy trabajando en nuevos proyectos relacionados con seguridad, redes y backend. ¡Mantente atento a las actualizaciones!"
   },

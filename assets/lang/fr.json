@@ -6,6 +6,7 @@
   },
   "intro": {
     "greeting": "Bonjour, je suis Miguel Paterson",
+    "short_bio": "Je suis un développeur logiciel passionné spécialisé dans la cybersécurité, les réseaux et les systèmes backend.",
     "about_title": "À propos de moi",
     "about_text": "Étudiant en ingénierie informatique avec un fort intérêt pour la cybersécurité, les réseaux et la programmation bas niveau. Ceci est mon espace personnel où je partage mes projets techniques et mes expériences d'apprentissage.",
     "resume": "CV / Resume"
@@ -20,10 +21,11 @@
   },
   "projects": {
     "title": "Projets en Vedette",
-    "http_server": "Serveur HTTP bas niveau en C utilisant des sockets. Prend en charge les requêtes GET, POST et OPTIONS sans bibliothèques externes.",
-    "films_api": "API Python pour gérer des films, des paniers et des clients. Construit avec SQLAlchemy, PostgreSQL et Docker.",
-    "library_api": "Deux microservices écrits en Python avec Quart. Authentification personnalisée basée sur des tokens et gestion des fichiers.",
-    "libpcap": "Outil de capture, d'analyse et de réponse aux paquets ARP écrit en Python avec libpcap. Testé avec Mininet et bien documenté.",
+    "view_code": "Voir le Code ↗",
+    "http_server": "Développement à partir de zéro d'un serveur HTTP capable de gérer les requêtes GET, POST et OPTIONS, utilisant des sockets et des threads en C et une gestion manuelle des en-têtes HTTP.",
+    "films_api": "Création d'une API REST avec des endpoints pour les films, les paniers d'achat et les clients. Gestion de sessions et authentification. Déploiement dans des conteneurs Docker.",
+    "library_api": "Mise en œuvre de deux microservices indépendants pour la gestion des utilisateurs et des bibliothèques de fichiers. Comprend une authentification personnalisée par tokens, une protection des endpoints et un déploiement Docker.",
+    "libpcap": "Outil d'analyse du trafic Ethernet et ARP avec implémentation personnalisée de : Capture et analyse de trames avec libpcap. Envoi et traitement des requêtes/réponses ARP. ARP gratuit et gestion de cache avec synchronisation par verrous. Validation en réseau virtuel (Mininet) avec tests documentés.",
     "coming_soon_title": "🚧 Plus de Projets Bientôt Disponibles",
     "coming_soon_desc": "Je travaille actuellement sur de nouveaux projets liés à la sécurité, aux réseaux et au backend. Restez à l'écoute des mises à jour !"
   },

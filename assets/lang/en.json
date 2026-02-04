@@ -6,6 +6,7 @@
   },
   "intro": {
     "greeting": "Hi, I'm Miguel Paterson",
+    "short_bio": "I am a passionate software developer specializing in cybersecurity, networking, and backend systems.",
     "about_title": "About Me",
     "about_text": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
     "resume": "Resume / CV"
@@ -20,10 +21,11 @@
   },
   "projects": {
     "title": "Featured Projects",
-    "http_server": "Low-level HTTP server implemented in C using sockets. Supports GET, POST, and OPTIONS requests without external libraries.",
-    "films_api": "Python API for managing films, shopping carts and clients. Built with SQLAlchemy, PostgreSQL, and Docker.",
-    "library_api": "Two microservices written in Python using Quart. Implements custom token-based authentication and file management.",
-    "libpcap": "ARP packet capture, analysis, and response tool built with Python and libpcap. Tested in Mininet and well-documented.",
+    "view_code": "View Code ↗",
+    "http_server": "Development from scratch of an HTTP server capable of handling GET, POST, and OPTIONS requests, using sockets and threads in C and manual HTTP header handling.",
+    "films_api": "Creation of a REST API with endpoints for movies, shopping carts, and clients. Session management and authentication. Docker container deployment.",
+    "library_api": "Implementation of two independent microservices for user and file library management. Includes custom token-based authentication, endpoint protection, and Docker deployment.",
+    "libpcap": "Ethernet and ARP traffic analysis tool with custom implementation of: Frame capture and analysis with libpcap. Sending and processing ARP requests/replies. Gratuitous ARP and cache management with lock synchronization. Validation in virtual network (Mininet) with documented tests.",
     "coming_soon_title": "🚧 More Projects Coming Soon",
     "coming_soon_desc": "I’m currently working on new security, networking, and backend-related projects. Stay tuned for updates!"
   },

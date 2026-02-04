@@ -1,6 +1,7 @@
 <!-- Página principal https://paterson3c.github.io/ -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +11,7 @@
   <script defer src="assets/js/lang.js"></script>
   <script defer src="assets/js/theme.js"></script>
 </head>
+
 <body>
   <header>
     <div class="container header-content">
@@ -21,28 +23,28 @@
           <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
         <div class="controls">
-            <div class="lang-switcher">
-                <div class="dropdown">
-                  <button class="dropbtn" aria-label="Select Language">
-                    <img id="current-flag" src="assets/img/flags/en.svg" alt="Language" class="flag-icon" />
-                    <span style="font-size: 0.8rem">▼</span>
-                  </button>
-                  <div class="dropdown-content">
-                    <button onclick="setLang('en')">
-                        <img src="assets/img/flags/en.svg" alt="English" class="flag-icon" /> English
-                    </button>
-                    <button onclick="setLang('es')">
-                        <img src="assets/img/flags/es.svg" alt="Español" class="flag-icon" /> Español
-                    </button>
-                    <button onclick="setLang('fr')">
-                        <img src="assets/img/flags/fr.svg" alt="Français" class="flag-icon" /> Français
-                    </button>
-                  </div>
-                </div>
+          <div class="lang-switcher">
+            <div class="dropdown">
+              <button class="dropbtn" aria-label="Select Language">
+                <img id="current-flag" src="assets/img/flags/en.svg" alt="Language" class="flag-icon" />
+                <span style="font-size: 0.8rem">▼</span>
+              </button>
+              <div class="dropdown-content">
+                <button onclick="setLang('en')">
+                  <img src="assets/img/flags/en.svg" alt="English" class="flag-icon" /> English
+                </button>
+                <button onclick="setLang('es')">
+                  <img src="assets/img/flags/es.svg" alt="Español" class="flag-icon" /> Español
+                </button>
+                <button onclick="setLang('fr')">
+                  <img src="assets/img/flags/fr.svg" alt="Français" class="flag-icon" /> Français
+                </button>
               </div>
-              <div class="theme-toggle">
-                <button onclick="toggleTheme()" id="theme-button" aria-label="Toggle Dark Mode">🌙</button>
-              </div>
+            </div>
+          </div>
+          <div class="theme-toggle">
+            <button onclick="toggleTheme()" id="theme-button" aria-label="Toggle Dark Mode">🌙</button>
+          </div>
         </div>
       </nav>
     </div>
@@ -50,31 +52,34 @@
 
   <main>
     <section class="hero">
-        <div class="container">
-            <img src="assets/img/profile.jpg" alt="Profile of Miguel Paterson" class="profile-img" />
-            <h2 data-i18n="intro.greeting">Hi, I'm Miguel Paterson</h2>
-            <p data-i18n="bio">I am a passionate software developer specializing in...</p>
-            <div class="cta-buttons">
-                <a href="projects.html" class="btn btn-primary" data-i18n="nav.projects">View Projects</a>
-                <a href="contact.html" class="btn btn-secondary" data-i18n="nav.contact">Contact Me</a>
-            </div>
+      <div class="container">
+        <img src="assets/img/profile.jpg" alt="Profile of Miguel Paterson" class="profile-img" />
+        <h2 data-i18n="intro.greeting">Hi, I'm Miguel Paterson</h2>
+        <p data-i18n="intro.short_bio">I am a passionate software developer specializing in...</p>
+        <div class="cta-buttons">
+          <a href="projects.html" class="btn btn-primary" data-i18n="nav.projects">View Projects</a>
+          <a href="contact.html" class="btn btn-secondary" data-i18n="nav.contact">Contact Me</a>
         </div>
+      </div>
     </section>
 
     <section class="container" style="padding-top: 4rem; padding-bottom: 4rem;">
       <h3 data-i18n="intro.about_title">About Me</h3>
       <p data-i18n="intro.about_text">
-          <!-- Placeholder content, will be populated by lang.js or static text if preferred -->
-          Welcome to my portfolio. I enjoy building software that solves real-world problems.
-          Feel free to explore my projects or download my CV below.
+        <!-- Placeholder content, will be populated by lang.js or static text if preferred -->
+        Welcome to my portfolio. I enjoy building software that solves real-world problems.
+        Feel free to explore my projects or download my CV below.
       </p>
 
       <div class="cv-links" style="margin-top: 2rem;">
         <h4 data-i18n="intro.resume">Resume / CV</h4>
         <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-            <a href="cv/CV_EN.pdf" target="_blank" class="btn btn-secondary" data-i18n="download.cv_en">Download CV (EN)</a>
-            <a href="cv/CV_ES.pdf" target="_blank" class="btn btn-secondary" data-i18n="download.cv_es">Descargar CV (ES)</a>
-            <a href="cv/CV_FR.pdf" target="_blank" class="btn btn-secondary" data-i18n="download.cv_fr">Télécharger CV (FR)</a>
+          <a href="cv/CV_EN.pdf" target="_blank" class="btn btn-secondary" data-i18n="download.cv_en">Download CV
+            (EN)</a>
+          <a href="cv/CV_ES.pdf" target="_blank" class="btn btn-secondary" data-i18n="download.cv_es">Descargar CV
+            (ES)</a>
+          <a href="cv/CV_FR.pdf" target="_blank" class="btn btn-secondary" data-i18n="download.cv_fr">Télécharger CV
+            (FR)</a>
         </div>
       </div>
     </section>
@@ -82,11 +87,12 @@
 
   <footer>
     <div class="container">
-        <p>© 2025 Miguel Jesús Paterson González. <span data-i18n="footer.license">All rights reserved.</span></p>
-        <p style="font-size: 0.8rem; margin-top: 0.5rem;">
-            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
-        </p>
+      <p>© 2025 Miguel Jesús Paterson González. <span data-i18n="footer.license">All rights reserved.</span></p>
+      <p style="font-size: 0.8rem; margin-top: 0.5rem;">
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+      </p>
     </div>
   </footer>
 </body>
+
 </html>
