@@ -4,7 +4,12 @@
       "projects": "Projects",
       "contact": "Contact"
     },
-    "bio": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+    "intro": {
+      "greeting": "Hi, I'm Miguel Paterson",
+      "about_title": "About Me",
+      "about_text": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+      "resume": "Resume / CV"
+    },
     "download": {
       "cv_en": "Download CV (EN)",
       "cv_es": "Download CV (ES)",

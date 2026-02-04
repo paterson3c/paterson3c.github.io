@@ -1,28 +1,32 @@
 {
-    "nav": {
-      "home": "Accueil",
-      "projects": "Projets",
-      "contact": "Contact"
-    },
-    "bio": "Étudiant en ingénierie informatique avec un fort intérêt pour la cybersécurité, les réseaux et la programmation bas niveau. Ceci est mon espace personnel où je partage mes projets techniques et mes expériences d'apprentissage.",
-    "download": {
-      "cv_en": "Télécharger CV (EN)",
-      "cv_es": "Télécharger CV (ES)",
-      "cv_fr": "Télécharger CV (FR)"
-    },
-    "footer": {
-      "license": "Ce site est sous licence"
-    },
-    "projects": {
-      "title": "Projets en Vedette",
-      "http_server": "Serveur HTTP bas niveau en C utilisant des sockets. Prend en charge les requêtes GET, POST et OPTIONS sans bibliothèques externes.",
-      "films_api": "API Python pour gérer des films, des paniers et des clients. Construit avec SQLAlchemy, PostgreSQL et Docker.",
-      "library_api": "Deux microservices écrits en Python avec Quart. Authentification personnalisée basée sur des tokens et gestion des fichiers.",
-      "libpcap": "Outil de capture, d'analyse et de réponse aux paquets ARP écrit en Python avec libpcap. Testé avec Mininet et bien documenté."
-    },
-    "contact": {
-      "title": "Me Contacter",
-      "description": "N'hésitez pas à me contacter via l'un des moyens suivants :"
-    }
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "intro": {
+    "greeting": "Bonjour, je suis Miguel Paterson",
+    "about_title": "À propos de moi",
+    "about_text": "Étudiant en ingénierie informatique avec un fort intérêt pour la cybersécurité, les réseaux et la programmation bas niveau. Ceci est mon espace personnel où je partage mes projets techniques et mes expériences d'apprentissage.",
+    "resume": "CV / Resume"
+  },
+  "download": {
+    "cv_en": "Télécharger CV (EN)",
+    "cv_es": "Télécharger CV (ES)",
+    "cv_fr": "Télécharger CV (FR)"
+  },
+  "footer": {
+    "license": "Ce site est sous licence"
+  },
+  "projects": {
+    "title": "Projets en Vedette",
+    "http_server": "Serveur HTTP bas niveau en C utilisant des sockets. Prend en charge les requêtes GET, POST et OPTIONS sans bibliothèques externes.",
+    "films_api": "API Python pour gérer des films, des paniers et des clients. Construit avec SQLAlchemy, PostgreSQL et Docker.",
+    "library_api": "Deux microservices écrits en Python avec Quart. Authentification personnalisée basée sur des tokens et gestion des fichiers.",
+    "libpcap": "Outil de capture, d'analyse et de réponse aux paquets ARP écrit en Python avec libpcap. Testé avec Mininet et bien documenté."
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "description": "N'hésitez pas à me contacter via l'un des moyens suivants :"
+  }
 }
-  

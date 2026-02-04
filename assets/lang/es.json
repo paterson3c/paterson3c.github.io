@@ -1,28 +1,32 @@
 {
-    "nav": {
-      "home": "Inicio",
-      "projects": "Proyectos",
-      "contact": "Contacto"
-    },
-    "bio": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
-    "download": {
-      "cv_en": "Descargar CV (EN)",
-      "cv_es": "Descargar CV (ES)",
-      "cv_fr": "Descargar CV (FR)"
-    },
-    "footer": {
-      "license": "Este sitio está licenciado bajo"
-    },
-    "projects": {
-      "title": "Proyectos Destacados",
-      "http_server": "Servidor HTTP de bajo nivel implementado en C usando sockets. Soporta peticiones GET, POST y OPTIONS sin librerías externas.",
-      "films_api": "API en Python para gestionar películas, carritos y clientes. Construida con SQLAlchemy, PostgreSQL y Docker.",
-      "library_api": "Dos microservicios escritos en Python con Quart. Autenticación personalizada con tokens y gestión de archivos.",
-      "libpcap": "Herramienta para capturar, analizar y responder tráfico ARP construida en Python con libpcap. Probada en Mininet y bien documentada."
-    },
-    "contact": {
-      "title": "Contacto",
-      "description": "No dudes en escribirme a través de cualquiera de los siguientes canales:"
-    }
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "intro": {
+    "greeting": "Hola, soy Miguel Paterson",
+    "about_title": "Sobre mí",
+    "about_text": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
+    "resume": "Currículum / CV"
+  },
+  "download": {
+    "cv_en": "Descargar CV (EN)",
+    "cv_es": "Descargar CV (ES)",
+    "cv_fr": "Descargar CV (FR)"
+  },
+  "footer": {
+    "license": "Este sitio está licenciado bajo"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "http_server": "Servidor HTTP de bajo nivel implementado en C usando sockets. Soporta peticiones GET, POST y OPTIONS sin librerías externas.",
+    "films_api": "API en Python para gestionar películas, carritos y clientes. Construida con SQLAlchemy, PostgreSQL y Docker.",
+    "library_api": "Dos microservicios escritos en Python con Quart. Autenticación personalizada con tokens y gestión de archivos.",
+    "libpcap": "Herramienta para capturar, analizar y responder tráfico ARP construida en Python con libpcap. Probada en Mininet y bien documentada."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "No dudes en escribirme a través de cualquiera de los siguientes canales:"
+  }
 }
-  

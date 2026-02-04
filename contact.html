@@ -1,57 +1,118 @@
 <!-- Página de contacto -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-i18n="nav.contact">Contact</title>
+  <title data-i18n="nav.contact">Contact | Miguel Paterson</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/lang.js"></script>
   <script defer src="assets/js/theme.js"></script>
+  <style>
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1rem;
+    }
+
+    .contact-list li {
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .contact-list a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
   <header>
-    <h1 id="site-title">Miguel Jesús Paterson González</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" data-i18n="nav.home"></a></li>
-        <li><a href="projects.html" data-i18n="nav.projects"></a></li>
-        <li><a href="contact.html" data-i18n="nav.contact"></a></li>
-        <li class="lang-switcher">
-          <div class="dropdown">
-            <button class="dropbtn">
-              <img id="current-flag" src="assets/img/flags/en.svg" alt="Language" />
-            </button>
-            <div class="dropdown-content">
-              <img src="assets/img/flags/en.svg" onclick="setLang('en')" alt="English" />
-              <img src="assets/img/flags/es.svg" onclick="setLang('es')" alt="Español" />
-              <img src="assets/img/flags/fr.svg" onclick="setLang('fr')" alt="Français" />
+    <div class="container header-content">
+      <h1 id="site-title">Miguel Paterson</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="contact.html" class="active" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="controls">
+          <div class="lang-switcher">
+            <div class="dropdown">
+              <button class="dropbtn" aria-label="Select Language">
+                <img id="current-flag" src="assets/img/flags/en.svg" alt="Language" class="flag-icon" />
+                <span style="font-size: 0.8rem">▼</span>
+              </button>
+              <div class="dropdown-content">
+                <button onclick="setLang('en')">
+                  <img src="assets/img/flags/en.svg" alt="English" class="flag-icon" /> English
+                </button>
+                <button onclick="setLang('es')">
+                  <img src="assets/img/flags/es.svg" alt="Español" class="flag-icon" /> Español
+                </button>
+                <button onclick="setLang('fr')">
+                  <img src="assets/img/flags/fr.svg" alt="Français" class="flag-icon" /> Français
+                </button>
+              </div>
             </div>
           </div>
-        </li>
-        <li class="theme-toggle">
-          <button onclick="toggleTheme()" id="theme-button">🌙</button>
-        </li>
-      </ul> 
-    </nav>
+          <div class="theme-toggle">
+            <button onclick="toggleTheme()" id="theme-button" aria-label="Toggle Dark Mode">🌙</button>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h2 data-i18n="contact.title"></h2>
-    <p data-i18n="contact.description"></p>
+  <main class="container">
+    <div style="padding: 4rem 0; max-width: 600px; margin: 0 auto;">
+      <h2 data-i18n="contact.title" style="margin-bottom: 1.5rem;">Get in Touch</h2>
+      <p data-i18n="contact.description" style="color: var(--text-light); margin-bottom: 2rem;">
+        Feel free to reach out to me via email or social media.
+      </p>
 
-    <ul>
-      <li>Email: <a href="mailto:mjpaterson21@gmail.com">mjpaterson21@gmail.com</a></li>
-      <li>GitHub: <a href="https://github.com/paterson3c" target="_blank">github.com/paterson3c</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/paterson3c/" target="_blank">linkedin.com/in/paterson3c</a></li>
-      <li>Phone: <a href="tel:+34665056399">+34 665056399</a></li>
-    </ul>
+      <ul class="contact-list">
+        <li>
+          <span>📧</span>
+          <strong>Email:</strong>
+          <a href="mailto:mjpaterson21@gmail.com">mjpaterson21@gmail.com</a>
+        </li>
+        <li>
+          <span>🐙</span>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/paterson3c" target="_blank">github.com/paterson3c</a>
+        </li>
+        <li>
+          <span>💼</span>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/paterson3c/" target="_blank">linkedin.com/in/paterson3c</a>
+        </li>
+        <li>
+          <span>📱</span>
+          <strong>Phone:</strong>
+          <a href="tel:+34665056399">+34 665056399</a>
+        </li>
+      </ul>
+    </div>
   </main>
 
   <footer>
-    <p>© 2025 Miguel Jesús Paterson González — paterson3c. <span data-i18n="footer.license"></span>
-      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
-    </p>
+    <div class="container">
+      <p>© 2025 Miguel Jesús Paterson González. <span data-i18n="footer.license">All rights reserved.</span></p>
+      <p style="font-size: 0.8rem; margin-top: 0.5rem;">
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+      </p>
+    </div>
   </footer>
 </body>
+
 </html>
