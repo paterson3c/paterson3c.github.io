@@ -23,7 +23,9 @@
     "http_server": "Serveur HTTP bas niveau en C utilisant des sockets. Prend en charge les requêtes GET, POST et OPTIONS sans bibliothèques externes.",
     "films_api": "API Python pour gérer des films, des paniers et des clients. Construit avec SQLAlchemy, PostgreSQL et Docker.",
     "library_api": "Deux microservices écrits en Python avec Quart. Authentification personnalisée basée sur des tokens et gestion des fichiers.",
-    "libpcap": "Outil de capture, d'analyse et de réponse aux paquets ARP écrit en Python avec libpcap. Testé avec Mininet et bien documenté."
+    "libpcap": "Outil de capture, d'analyse et de réponse aux paquets ARP écrit en Python avec libpcap. Testé avec Mininet et bien documenté.",
+    "coming_soon_title": "🚧 Plus de Projets Bientôt Disponibles",
+    "coming_soon_desc": "Je travaille actuellement sur de nouveaux projets liés à la sécurité, aux réseaux et au backend. Restez à l'écoute des mises à jour !"
   },
   "contact": {
     "title": "Me Contacter",

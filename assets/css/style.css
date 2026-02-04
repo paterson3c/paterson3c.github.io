@@ -5,15 +5,16 @@
   --primary-hover: #1d4ed8;
   --bg-color: #ffffff;
   --text-color: #1f2937;
-  --text-light: #6b7280; /* Secondary text */
+  --text-light: #6b7280;
+  /* Secondary text */
   --bg-secondary: #f3f4f6;
   --border-color: #e5e7eb;
   --card-bg: #ffffff;
   --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  
+
   /* Typography */
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  
+
   /* Spacing */
   --container-width: 1024px;
 }
@@ -27,7 +28,8 @@ body.dark-mode {
   --text-light: #9ca3af;
   --bg-secondary: #1f2937;
   --border-color: #374151;
-  --card-bg: #1f2937; /* Same as secondary for now, or slightly lighter */
+  --card-bg: #1f2937;
+  /* Same as secondary for now, or slightly lighter */
   --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
 }
 
@@ -49,7 +51,8 @@ body {
 header {
   background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
-  position: sticky; /* Keep header visible */
+  position: sticky;
+  /* Keep header visible */
   top: 0;
   z-index: 100;
   padding: 1rem 0;
@@ -219,6 +222,21 @@ button:hover {
   flex-grow: 1;
 }
 
+.project-future {
+  grid-column: 1 / -1;
+  background-color: var(--bg-secondary);
+  border: 2px dashed var(--border-color);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.project-future h3 {
+  margin-top: 0;
+  color: var(--text-color);
+}
+
 /* Footer */
 footer {
   margin-top: 4rem;
@@ -229,45 +247,45 @@ footer {
 }
 
 footer a {
-    color: var(--primary-color);
-    text-decoration: none;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 /* Language Dropdown */
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: var(--card-bg);
-    min-width: 120px;
-    box-shadow: var(--card-shadow);
-    z-index: 101;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0;
-    border: 1px solid var(--border-color);
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: var(--card-bg);
+  min-width: 120px;
+  box-shadow: var(--card-shadow);
+  z-index: 101;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  border: 1px solid var(--border-color);
 }
 
 .dropdown-content button {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    text-align: left;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  gap: 0.5rem;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .flag-icon {
-    width: 20px;
-    height: 15px;
-    object-fit: cover;
-    border-radius: 2px;
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
 }

@@ -23,7 +23,9 @@
     "http_server": "Servidor HTTP de bajo nivel implementado en C usando sockets. Soporta peticiones GET, POST y OPTIONS sin librerías externas.",
     "films_api": "API en Python para gestionar películas, carritos y clientes. Construida con SQLAlchemy, PostgreSQL y Docker.",
     "library_api": "Dos microservicios escritos en Python con Quart. Autenticación personalizada con tokens y gestión de archivos.",
-    "libpcap": "Herramienta para capturar, analizar y responder tráfico ARP construida en Python con libpcap. Probada en Mininet y bien documentada."
+    "libpcap": "Herramienta para capturar, analizar y responder tráfico ARP construida en Python con libpcap. Probada en Mininet y bien documentada.",
+    "coming_soon_title": "🚧 Próximamente Más Proyectos",
+    "coming_soon_desc": "Estoy trabajando en nuevos proyectos relacionados con seguridad, redes y backend. ¡Mantente atento a las actualizaciones!"
   },
   "contact": {
     "title": "Contacto",

@@ -1,33 +1,34 @@
 {
-    "nav": {
-      "home": "Home",
-      "projects": "Projects",
-      "contact": "Contact"
-    },
-    "intro": {
-      "greeting": "Hi, I'm Miguel Paterson",
-      "about_title": "About Me",
-      "about_text": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
-      "resume": "Resume / CV"
-    },
-    "download": {
-      "cv_en": "Download CV (EN)",
-      "cv_es": "Download CV (ES)",
-      "cv_fr": "Download CV (FR)"
-    },
-    "footer": {
-      "license": "This site is licensed under"
-    },
-    "projects": {
-      "title": "Featured Projects",
-      "http_server": "Low-level HTTP server implemented in C using sockets. Supports GET, POST, and OPTIONS requests without external libraries.",
-      "films_api": "Python API for managing films, shopping carts and clients. Built with SQLAlchemy, PostgreSQL, and Docker.",
-      "library_api": "Two microservices written in Python using Quart. Implements custom token-based authentication and file management.",
-      "libpcap": "ARP packet capture, analysis, and response tool built with Python and libpcap. Tested in Mininet and well-documented."
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "description": "Feel free to reach out through any of the following channels:"
-    }
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "intro": {
+    "greeting": "Hi, I'm Miguel Paterson",
+    "about_title": "About Me",
+    "about_text": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+    "resume": "Resume / CV"
+  },
+  "download": {
+    "cv_en": "Download CV (EN)",
+    "cv_es": "Download CV (ES)",
+    "cv_fr": "Download CV (FR)"
+  },
+  "footer": {
+    "license": "This site is licensed under"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "http_server": "Low-level HTTP server implemented in C using sockets. Supports GET, POST, and OPTIONS requests without external libraries.",
+    "films_api": "Python API for managing films, shopping carts and clients. Built with SQLAlchemy, PostgreSQL, and Docker.",
+    "library_api": "Two microservices written in Python using Quart. Implements custom token-based authentication and file management.",
+    "libpcap": "ARP packet capture, analysis, and response tool built with Python and libpcap. Tested in Mininet and well-documented.",
+    "coming_soon_title": "🚧 More Projects Coming Soon",
+    "coming_soon_desc": "I’m currently working on new security, networking, and backend-related projects. Stay tuned for updates!"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Feel free to reach out through any of the following channels:"
+  }
 }
-  
