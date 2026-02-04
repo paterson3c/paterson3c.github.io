@@ -2,17 +2,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="nav.projects">Projects | Miguel Paterson</title>
   <title data-i18n="nav.projects">Projects | Miguel Paterson</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/lang.js"></script>
   <script defer src="assets/js/theme.js"></script>
 </head>
 
+
 <body>
   <header>
+    <div class="container header-content">
+      <h1 id="site-title">Miguel Paterson</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="projects.html" class="active" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="controls">
+          <div class="lang-switcher">
+            <div class="dropdown">
+              <button class="dropbtn" aria-label="Select Language">
+                <img id="current-flag" src="assets/img/flags/en.svg" alt="Language" class="flag-icon" />
+                <span style="font-size: 0.8rem">▼</span>
+              </button>
+              <div class="dropdown-content">
+                <button onclick="setLang('en')">
+                  <img src="assets/img/flags/en.svg" alt="English" class="flag-icon" /> English
+                </button>
+                <button onclick="setLang('es')">
+                  <img src="assets/img/flags/es.svg" alt="Español" class="flag-icon" /> Español
+                </button>
+                <button onclick="setLang('fr')">
+                  <img src="assets/img/flags/fr.svg" alt="Français" class="flag-icon" /> Français
+                </button>
+              </div>
     <div class="container header-content">
       <h1 id="site-title">Miguel Paterson</h1>
       <nav>
@@ -47,14 +76,50 @@
         </div>
       </nav>
     </div>
+          <div class="theme-toggle">
+            <button onclick="toggleTheme()" id="theme-button" aria-label="Toggle Dark Mode">🌙</button>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="container">
     <div style="padding: 4rem 0 2rem;">
       <h2 data-i18n="projects.title" style="margin-bottom: 0.5rem;">My Projects</h2>
       <p class="text-light" style="color: var(--text-light);">Here are some things I've built.</p>
+  <main class="container">
+    <div style="padding: 4rem 0 2rem;">
+      <h2 data-i18n="projects.title" style="margin-bottom: 0.5rem;">My Projects</h2>
+      <p class="text-light" style="color: var(--text-light);">Here are some things I've built.</p>
     </div>
 
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <article class="project-card">
+        <h3><a href="https://github.com/paterson3c/http_server" target="_blank">HTTP Server in C</a></h3>
+        <p data-i18n="projects.http_server">A custom HTTP server implementation written in C to understand network
+          protocols.</p>
+        <div style="margin-top: 1rem;">
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">C</span>
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">Networking</span>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <h3><a href="https://github.com/paterson3c/films_api" target="_blank">Films & Clients REST API</a></h3>
+        <p data-i18n="projects.films_api">A RESTful API for managing films and clients data.</p>
+        <div style="margin-top: 1rem;">
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">REST
+            API</span>
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">Backend</span>
+        </div>
+      </article>
     <div class="projects-grid">
       <!-- Project 1 -->
       <article class="project-card">
@@ -103,6 +168,27 @@
             style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">Security</span>
         </div>
       </article>
+      <!-- Project 3 -->
+      <article class="project-card">
+        <h3><a href="https://github.com/paterson3c/library_api" target="_blank">User & File Microservices</a></h3>
+        <p data-i18n="projects.library_api">Microservices architecture for user management and file handling.</p>
+        <div style="margin-top: 1rem;">
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">Microservices</span>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project-card">
+        <h3><a href="https://github.com/paterson3c/practica_libpcap" target="_blank">ARP Traffic Analyzer</a></h3>
+        <p data-i18n="projects.libpcap">Network traffic analyzer using libpcap to capture and inspect ARP packets.</p>
+        <div style="margin-top: 1rem;">
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">C</span>
+          <span
+            style="background: var(--bg-secondary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">Security</span>
+        </div>
+      </article>
     </div>
   </main>
 
@@ -120,7 +206,14 @@
         <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
       </p>
     </div>
+    <div class="container">
+      <p>© 2025 Miguel Jesús Paterson González. <span data-i18n="footer.license">All rights reserved.</span></p>
+      <p style="font-size: 0.8rem; margin-top: 0.5rem;">
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+      </p>
+    </div>
   </footer>
 </body>
+
 
 </html>
