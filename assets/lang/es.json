@@ -4,9 +4,11 @@
     "projects": "Proyectos",
     "contact": "Contacto"
   },
-  "bio": {
-    "summary": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
-    "objective": "💼 Buscando prácticas o posiciones junior en ciberseguridad, redes o desarrollo backend (a partir de junio de 2025)."
+  "intro": {
+    "greeting": "Hola, soy Miguel Paterson",
+    "about_title": "Sobre mí",
+    "about_text": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
+    "resume": "Currículum / CV"
   },
   "download": {
     "cv_en": "Descargar CV (EN)",
@@ -17,94 +19,14 @@
     "license": "Este sitio está licenciado bajo"
   },
   "projects": {
-    "title": "🧪 Proyectos seleccionados",
-    "http_server_title": "Servidor HTTP en C",
-    "http_server": "Servidor web de bajo nivel que gestiona solicitudes GET, POST y OPTIONS con sockets en C.",
-    "films_api_title": "API REST de Películas y Clientes",
-    "films_api": "API REST para gestionar películas, carritos y pedidos usando Python y Docker.",
-    "library_api_title": "Microservicios de Usuarios y Archivos",
-    "library_api": "Sistema de autenticación personalizado con tokens en arquitectura de microservicios.",
-    "libpcap_title": "Analizador de tráfico ARP con libpcap",
-    "libpcap": "Captura y análisis de tráfico ARP con tramas Ethernet crudas en entorno Mininet.",
-    "coming_soon_title": "🚧 Más proyectos próximamente",
-    "coming_soon_desc": "Actualmente estoy trabajando en nuevos proyectos relacionados con ciberseguridad, redes y backend. ¡Muy pronto habrá novedades!"
+    "title": "Proyectos Destacados",
+    "http_server": "Servidor HTTP de bajo nivel implementado en C usando sockets. Soporta peticiones GET, POST y OPTIONS sin librerías externas.",
+    "films_api": "API en Python para gestionar películas, carritos y clientes. Construida con SQLAlchemy, PostgreSQL y Docker.",
+    "library_api": "Dos microservicios escritos en Python con Quart. Autenticación personalizada con tokens y gestión de archivos.",
+    "libpcap": "Herramienta para capturar, analizar y responder tráfico ARP construida en Python con libpcap. Probada en Mininet y bien documentada."
   },
   "contact": {
     "title": "Contacto",
     "description": "No dudes en escribirme a través de cualquiera de los siguientes canales:"
-  },
-  "cert": {
-    "title": "🎓 Certificaciones y Formación",
-    "ccncert": "Curso Introducción a la Ciberseguridad – CCN-CERT Atenea (2024)",
-    "utad": "Curso de Verano Introducción a la Ciberseguridad – U-tad (2021)",
-    "tryhackme": "Avanzando en los laboratorios de ciberseguridad de TryHackMe"
-  },
-  "skills": {
-    "title": "🛠️ Habilidades Técnicas",
-    "python": "Python – ⭐⭐⭐⭐☆",
-    "c": "C – ⭐⭐⭐⭐☆",
-    "docker": "Docker – ⭐⭐⭐☆☆",
-    "git": "Git / GitHub – ⭐⭐⭐⭐☆",
-    "linux": "Linux – ⭐⭐⭐⭐☆",
-    "cyber": "Redes y Ciberseguridad – ⭐⭐⭐⭐☆"
-  },
-  "http": {
-    "title": "🖧 Servidor HTTP en C",
-    "desc": "Este proyecto es un servidor HTTP ligero escrito en C puro, diseñado para manejar solicitudes HTTP básicas mediante programación de sockets a bajo nivel.",
-    "features": "🔍 Funcionalidades clave",
-    "f1": "Soporta métodos GET, POST y OPTIONS.",
-    "f2": "Sin librerías externas: solo llamadas al sistema y sockets.",
-    "f3": "Análisis manual de cabeceras y contenido HTTP.",
-    "f4": "Gestión robusta de conexiones (accept, fork, send, close).",
-    "tech": "⚙️ Tecnologías usadas",
-    "learning": "📌 Aprendizajes",
-    "learning_text": "Profundicé en el protocolo TCP/IP, aprendí a analizar HTTP manualmente y practiqué la depuración de concurrencia y manejo de cabeceras a bajo nivel. Este proyecto consolidó mis conocimientos tanto en redes como en programación de sistemas.",
-    "back": "← Volver a Proyectos"
-  },
-  "library": {
-    "title": "🔐 Microservicios de Usuarios y Archivos",
-    "desc": "Este proyecto implementa autenticación y gestión de archivos mediante microservicios propios, sin depender de frameworks de autenticación externos.",
-    "features": "🔍 Funcionalidades clave",
-    "f1": "Autenticación basada en tokens (implementación propia)",
-    "f2": "Servicios separados de usuarios y archivos comunicándose vía HTTP",
-    "f3": "Endpoints para registro, descarga y subida de archivos",
-    "f4": "Construido sin usar JWT ni bibliotecas OAuth",
-    "tech": "⚙️ Tecnologías usadas",
-    "learning": "📌 Aprendizajes",
-    "learning_text": "Construí la lógica de autenticación desde cero, gestioné la separación de servicios y el enrutamiento, y profundicé en APIs REST y conceptos básicos de seguridad.",
-    "back": "← Volver a Proyectos"
-  },
-  "films": {
-    "title": "🎬 API REST de Películas y Clientes",
-    "desc": "API REST completa para gestionar un catálogo de películas, carritos de usuarios y pedidos. Desarrollada en Python con soporte Docker.",
-    "features": "🔍 Funcionalidades clave",
-    "f1": "Operaciones CRUD para películas y clientes",
-    "f2": "Lógica de carrito de compras y procesamiento de pedidos",
-    "f3": "Autenticación con roles: admin vs usuario",
-    "f4": "Dockerizado para facilitar el despliegue",
-    "tech": "⚙️ Tecnologías usadas",
-    "learning": "📌 Aprendizajes",
-    "learning_text": "Aprendí a estructurar APIs, gestionar control de acceso por roles, seguir estándares REST y usar Docker para contenerización.",
-    "back": "← Volver a Proyectos"
-  },
-  "libpcap": {
-    "title": "📡 Analizador de tráfico ARP con libpcap",
-    "desc": "Herramienta en Python para capturar, enviar y analizar tráfico ARP con tramas Ethernet. Desarrollada y probada en Mininet.",
-    "features": "🔍 Funcionalidades clave",
-    "f1": "Procesamiento de solicitudes y respuestas ARP",
-    "f2": "Caché ARP personalizada con sistema de locks",
-    "f3": "Soporte para ARP Gratuito",
-    "f4": "Herramientas de debug y pruebas documentadas",
-    "tech": "⚙️ Tecnologías usadas",
-    "learning": "📌 Aprendizajes",
-    "learning_text": "Aprendí redes de bajo nivel con libpcap, implementé generación e inspección de paquetes y validé comportamientos en entornos virtuales con Mininet.",
-    "back": "← Volver a Proyectos"
-  },
-  "project": {
-    "prev": "← Anterior",
-    "next": "Siguiente →",
-    "back": "← Volver a Proyectos"
   }
-
 }
-  

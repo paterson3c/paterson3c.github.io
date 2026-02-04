@@ -1,109 +1,33 @@
 {
-  "nav": {
-    "home": "Home",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
-  "bio": {
-    "summary": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
-    "objective": "💼 Open to internships or junior roles in cybersecurity, networks, or backend development (from June 2025)."
-  },
-  "download": {
-    "cv_en": "Download CV (EN)",
-    "cv_es": "Download CV (ES)",
-    "cv_fr": "Download CV (FR)"
-  },
-  "footer": {
-    "license": "This site is licensed under"
-  },
-  "projects": {
-    "title": "🧪 Selected Projects",
-    "http_server_title": "HTTP Server in C",
-    "http_server": "Low-level web server handling GET, POST, and OPTIONS using raw sockets in C.",
-    "films_api_title": "Films & Clients REST API",
-    "films_api": "RESTful API for managing films, carts, and orders with Python and Docker.",
-    "library_api_title": "User & File Microservices",
-    "library_api": "Custom token-based authentication system using a microservices architecture.",
-    "libpcap_title": "ARP Traffic Analyzer with libpcap",
-    "libpcap": "Captures and analyzes ARP traffic with raw Ethernet frames in a Mininet environment.",
-    "coming_soon_title": "🚧 More Projects Coming Soon",
-    "coming_soon_desc": "I’m currently working on new security, networking, and backend-related projects. Stay tuned for updates!"
-  },
-  "contact": {
-    "title": "Get in Touch",
-    "description": "Feel free to reach out through any of the following channels:"
-  },
-  "cert": {
-    "title": "🎓 Certifications & Training",
-    "ccncert": "Intro to Cybersecurity – CCN-CERT Atenea (2024)",
-    "utad": "Summer Course – Intro to Cybersecurity at U-tad (2021)",
-    "tryhackme": "Progressing through TryHackMe cybersecurity labs"
-  },
-  "skills": {
-    "title": "🛠️ Technical Skills",
-    "python": "Python – ⭐⭐⭐⭐☆",
-    "c": "C – ⭐⭐⭐⭐☆",
-    "docker": "Docker – ⭐⭐⭐☆☆",
-    "git": "Git / GitHub – ⭐⭐⭐⭐☆",
-    "linux": "Linux – ⭐⭐⭐⭐☆",
-    "cyber": "Networking & Cybersecurity – ⭐⭐⭐⭐☆"
-  },
-  "http": {
-    "title": "🖧 HTTP Server in C",
-    "desc": "This project is a lightweight HTTP server written in pure C, designed to handle basic HTTP requests directly through low-level socket programming.",
-    "features": "🔍 Key Features",
-    "f1": "Handles GET, POST, and OPTIONS methods.",
-    "f2": "No external libraries: only system calls and raw sockets.",
-    "f3": "Manual parsing of HTTP headers and content.",
-    "f4": "Robust connection handling (accept, fork, send, close).",
-    "tech": "⚙️ Technologies Used",
-    "learning": "📌 Learning Outcomes",
-    "learning_text": "I deepened my understanding of TCP/IP, learned how to parse HTTP manually, and practiced debugging concurrency and header handling at a low level. This project helped me consolidate skills in both networks and system programming.",
-    "back": "← Back to Projects"
-  },
-  "library": {
-    "title": "🔐 User & File Microservices",
-    "desc": "This project implements authentication and file management using custom-built microservices, without relying on external auth frameworks.",
-    "features": "🔍 Key Features",
-    "f1": "Token-based authentication (own implementation)",
-    "f2": "Separate user and file services communicating via HTTP",
-    "f3": "File registration, download, and upload endpoints",
-    "f4": "Built without JWT or OAuth libraries",
-    "tech": "⚙️ Technologies Used",
-    "learning": "📌 Learning Outcomes",
-    "learning_text": "Built authentication logic from scratch, handled service separation and routing, and improved my understanding of REST APIs and security basics.",
-    "back": "← Back to Projects"
-  },
-  "films": {
-    "title": "🎬 Films & Clients REST API",
-    "desc": "A full REST API to manage a catalogue of films, user carts and orders. Built in Python with Docker support.",
-    "features": "🔍 Key Features",
-    "f1": "CRUD operations for films and clients",
-    "f2": "Shopping cart logic and order processing",
-    "f3": "Authentication with roles: admin vs user",
-    "f4": "Dockerized for easier deployment",
-    "tech": "⚙️ Technologies Used",
-    "learning": "📌 Learning Outcomes",
-    "learning_text": "Gained experience in API structuring, role-based access control, REST standards and containerization with Docker.",
-    "back": "← Back to Projects"
-  },
-  "libpcap": {
-    "title": "📡 ARP Traffic Analyzer with libpcap",
-    "desc": "Python tool for capturing, sending, and analyzing ARP traffic using raw Ethernet frames. Developed and tested in Mininet.",
-    "features": "🔍 Key Features",
-    "f1": "ARP request and reply processing",
-    "f2": "Custom ARP cache with locking mechanism",
-    "f3": "Support for Gratuitous ARP",
-    "f4": "Debug and validation tools included in documentation",
-    "tech": "⚙️ Technologies Used",
-    "learning": "📌 Learning Outcomes",
-    "learning_text": "Learned low-level networking using libpcap, implemented packet generation and inspection, and tested behavior in a virtual environment using Mininet.",
-    "back": "← Back to Projects"
-  },
-  "project": {
-    "prev": "← Previous",
-    "next": "Next →",
-    "back": "← Back to Projects"
-  }
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "intro": {
+      "greeting": "Hi, I'm Miguel Paterson",
+      "about_title": "About Me",
+      "about_text": "Computer Engineering student with a strong interest in cybersecurity, networking, and low-level programming. This is my personal space where I share technical projects and learning experiences.",
+      "resume": "Resume / CV"
+    },
+    "download": {
+      "cv_en": "Download CV (EN)",
+      "cv_es": "Download CV (ES)",
+      "cv_fr": "Download CV (FR)"
+    },
+    "footer": {
+      "license": "This site is licensed under"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "http_server": "Low-level HTTP server implemented in C using sockets. Supports GET, POST, and OPTIONS requests without external libraries.",
+      "films_api": "Python API for managing films, shopping carts and clients. Built with SQLAlchemy, PostgreSQL, and Docker.",
+      "library_api": "Two microservices written in Python using Quart. Implements custom token-based authentication and file management.",
+      "libpcap": "ARP packet capture, analysis, and response tool built with Python and libpcap. Tested in Mininet and well-documented."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Feel free to reach out through any of the following channels:"
+    }
 }
   
